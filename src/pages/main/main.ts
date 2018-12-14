@@ -338,7 +338,7 @@ export class MainPage {
       review:"Los colores son geniales y el zapato queda perfecto.",
       distribuidor:"Nike", 
       valoracion: "Excelente",
-      imagen: "../assets/imgs/tennis.jpg", 
+      imagen: "../assets/imgs/nike.jpg", 
       piezas:"10 piezas"
     },
   ]
