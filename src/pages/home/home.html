@@ -1,0 +1,21 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>Iniciar Sesión</ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content padding style = "background-color:rgb(157, 182, 228)">
+    <ion-list>
+      <ion-item>
+        <ion-input [(ngModel)]="correo" placeholder="correo"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type= "password" [(ngModel)]="contra" placeholder="contraseña"></ion-input>
+      </ion-item>
+    </ion-list>
+  
+    <button ion-button block (click)="clickSesion()">Iniciar Sesión</button>
+    <button ion-button block (click)="clickRegistro()">Registrarse</button>
+  
+    
+  </ion-content>
